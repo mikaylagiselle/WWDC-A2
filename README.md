@@ -1,6 +1,6 @@
 # WWDC-A2
 
-This project includes a repository including the history of my code, proejct process and other general information contriubuting towards the finalisation of my prototype. 
+This project includes a repository including the history of my code, proejct process and other general information contriubuting towards the finalisation of my prototype. Through the use of Python, I was able to code an interactive 'quiz style' visual output that offers varying visuals and games according to the user's mood. This data is collected through a simple quiz asked at the beginning and the visuasl representation is suited towards the answer. This prototype is aimed towards younger individuals who have difficulties expresing their emotions verbally, therefore the interactive and visual aspect of this project will enable them to engage whilst understanding the complexities of human emotion. 
 
 Table of Contents
 General Info
