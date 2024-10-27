@@ -19,8 +19,10 @@ HOME PAGE - Input mood answer
 <img width="589" alt="image" src="https://github.com/user-attachments/assets/0e7db11d-1229-4a76-8361-a745f92e6a5c">
 
 'SAD' INPUT - To cheer up feeling of sadness: interactive spinning sun with a smiley face
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/44ff9b5b-3c29-4f4d-b90e-8b69edbb0fac">
 
-
+'HAPPY' INPUT - Interactive game where circles are popped into smiley faces, with a scoreboard included
+<img width="583" alt="image" src="https://github.com/user-attachments/assets/672d20d5-f446-4b6a-b7bd-911801f947b2">
 
 Setup
 Usage
