@@ -12,7 +12,15 @@ This prototype is a beginner level coding project that has been executd through 
 The 'Mood Simulator' serves as a creative visual prototype aimed for kids struggling to express their emotions verbally. Through the 'quiz' based question: 'What is your mood?,' they are able to type in their answer to generate an artistic feature corresponding to their answer. The 3 recognised moods are: sad, happy and angry- with each having their own distinct features. If another mood is input, a default message: 'Thanks for contributing! Every mood is important!' is displayed onto the screen, with the option of inputting a different mood after 15 seconds, re routing back to the home page. 
 
 **SCREENSHOTS**
-<img width="596" alt="image" src="https://github.com/user-attachments/assets/d6c48660-bce8-4309-aa41-54f184bf9071"> : HOME PAGE
+HOME PAGE - Input mood answer 
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/d6c48660-bce8-4309-aa41-54f184bf9071"> 
+
+'ANGRY' INPUT - Breathing exercise to calm down: inhale/exhale with the pulsating circle
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/0e7db11d-1229-4a76-8361-a745f92e6a5c">
+
+'SAD' INPUT - To cheer up feeling of sadness: interactive spinning sun with a smiley face
+
+
 
 Setup
 Usage
