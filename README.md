@@ -26,7 +26,7 @@ HOME PAGE - Input mood answer
 'HAPPY' INPUT - Interactive game where circles are popped into smiley faces, with a scoreboard included
 <img width="583" alt="image" src="https://github.com/user-attachments/assets/672d20d5-f446-4b6a-b7bd-911801f947b2">
 
-'ELSE' INPUT - Message 'Thanks for contributing! Every mood is important!' (Neutral positive message to correspond with what answe is given.)
+'ELSE' INPUT - Message 'Thanks for contributing! Every mood is important!' (Neutral positive message to correspond with what answer is given.)
 
 <img width="584" alt="image" src="https://github.com/user-attachments/assets/744ce5ef-7d23-4a28-9e4f-c269ace0920a">
 
