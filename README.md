@@ -8,10 +8,10 @@ This prototype aims to allow (mainly) children to express their emotions through
 **TECHNOLOGIES USED:**
 This prototype is a beginner level coding project that has been executd through Processing.Org and Python , as it is the most appropriate software and language for achieving my creative and realistic goals. The use of Processing.org libraries have also been incorporated throughout the development of my project, offering straightforward methods of visual output. 
 
-**FEATURES**
+**FEATURES:**
 The 'Mood Simulator' serves as a creative visual prototype aimed for kids struggling to express their emotions verbally. Through the 'quiz' based question: 'What is your mood?,' they are able to type in their answer to generate an artistic feature corresponding to their answer. The 3 recognised moods are: sad, happy and angry- with each having their own distinct features. If another mood is input, a default message: 'Thanks for contributing! Every mood is important!' is displayed onto the screen, with the option of inputting a different mood after 15 seconds, re routing back to the home page. 
 
-**SCREENSHOTS**
+**SCREENSHOTS/FEATURES:**
 
 HOME PAGE - Input mood answer 
 
@@ -29,9 +29,15 @@ HOME PAGE - Input mood answer
 'ELSE' INPUT - Message 'Thanks for contributing! Every mood is important!' (Neutral positive message to correspond with what answe is given.)
 <img width="584" alt="image" src="https://github.com/user-attachments/assets/744ce5ef-7d23-4a28-9e4f-c269ace0920a">
 
-
-
-Setup
+**SETUP:**
+1. Ensure that the Processing.Org software has been downloaded onto your device, and is able to run seamlessly.
+2. Make sure it is saved in a folder which you can easily access.
+3. Run the code by clicking the navy blue 'play' icon on the top left.
+4. A new tab should pop up, with a pink 'wave like' animation moving.
+5. Type in a mood. Recognised moods with a visual output" happy, sad and angry.
+6. If 'happy': a popping circle game will appear, when these circles are popped, they turn into a smiley face. A scoreboard is also included to keep track. You are given 15 seconds before you return to the home page.
+7. If 'sad': an animated sun will appear. To interact, click on the sun with your mouse to make it start spinning clockwise. To stop, click on it again. The sun will follow your mouse. You are given 15 seconds before you return to the home page.
+8. If 'angry': a series of circles will appear in pastel shades, slowly increasing and decreasing. This a breathing exercise to follow to stimualte calmness. When the circle decreases, breathe in. When the circle increases, breathe out accordingly. You are given 15 seconds before you return to the home page. 
 Usage
 Project Status
 Room for Improvement
