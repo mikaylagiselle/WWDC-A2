@@ -1,4 +1,4 @@
-# WWDC-A2
+# WWDC-A2 : 'Mood Simulator'
 
 This project includes a repository including the history of my code, proejct process and other general information contriubuting towards the finalisation of my prototype. Through the use of Python, I was able to code an interactive 'quiz style' visual output that offers varying visuals and games according to the user's mood. This data is collected through a simple quiz asked at the beginning and the visuasl representation is suited towards the answer. This prototype is aimed towards younger individuals who have difficulties expresing their emotions verbally, therefore the interactive and visual aspect of this project will enable them to engage whilst understanding the complexities of human emotion. 
 
@@ -7,8 +7,13 @@ This prototype aims to allow (mainly) children to express their emotions through
 
 **TECHNOLOGIES USED:**
 This prototype is a beginner level coding project that has been executd through Processing.Org, as it is the most appropriate software for achieving the creative and realistic goals. The use of Processing.org libraries have also been incorporated throughout the development of my project, offering straightforward methods of visual output. 
-Features
-Screenshots
+
+**FEATURES**
+The 'Mood Simulator' serves as a creative visual prototype aimed for kids struggling to express their emotions verbally. Through the 'quiz' based question: 'What is your mood?,' they are able to type in their answer to generate an artistic feature corresponding to their answer. The 3 recognised moods are: sad, happy and angry- with each having their own distinct features. If another mood is input, a default message: 'Thanks for contributing! Every mood is important!' is displayed onto the screen, with the option of inputting a different mood after 15 seconds, re routing back to the home page. 
+
+**SCREENSHOTS**
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/d6c48660-bce8-4309-aa41-54f184bf9071"> : HOME PAGE
+
 Setup
 Usage
 Project Status
