@@ -41,15 +41,10 @@ HOME PAGE - Input mood answer
 8. If 'angry': a series of circles will appear in pastel shades, slowly increasing and decreasing. This a breathing exercise to follow to stimualte calmness. When the circle decreases, breathe in. When the circle increases, breathe out accordingly. You are given 15 seconds before you return to the home page. 
 
 **USAGE OF CODE:**
+This code can be altered to one's preferences by changing certain variables to suit them. There are endless possibilities that are able to cater towards different needs through visual stimulation, engaging audiences. It may serve as a way to express emotions without direct communication with a person, as well as regulate negative thoughts. 
 
 **ROOM FOR IMPROVEMENT/ PROJECT STATUS**
-
-**ACKNOWLEDGEMENTS**
-Provide general information about your project here.
-
-Project Status
-
-
-This project was inspired by...
-This project was based on this tutorial.
-Many thanks to...
+Although this project is finished for now, there is definitely room for development to add more features such as:
+- further recognised mood options
+- extensive features that have higher levels of interaction
+- further development of the outputs of each mood
