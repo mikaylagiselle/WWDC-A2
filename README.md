@@ -117,8 +117,8 @@ RESULT: def drawCalmingArt():
 
   INPUT: 'Please also code a timer feature to incorporate'
 
-  OUTPUT;
-   # Timer logic
+  OUTPUT:
+ ** # Timer Logic**
     if timer_running:
         # Calculate remaining time based on the time elapsed
         elapsed_time = (millis() - timer_start) / 1000  # Convert to seconds
@@ -136,7 +136,7 @@ RESULT: def drawCalmingArt():
             text("Time's Up!", width / 2, height / 2)  # Display message
 
   RESULT:
-  # Timer display and features
+    # Timer Display and Features
     if timer_running:
         remaining_time = timer_duration - (frameCount - timer_start) / 60  # Calculate remaining time
         if remaining_time > 0:
@@ -155,13 +155,12 @@ RESULT: def drawCalmingArt():
 
   OUTPUT: Corrected Code:
   python
-  Copy code
-  # Adjust background color based on mood
+**  # Adjust background colour based on mood**
   if mood.lower() == "happy":
       background(255, 255, 204)  # Light yellow for happiness
 
   RESULT:
-  # Display score only if mood is "happy"
+ ** # Display score only if mood is "happy"**
     if mood.lower() == "happy": #'==' Is a true statement 
         fill(0)
         text("Score: " + str(score), width / 2, height / 2 - 40)  # Display score above mood prompt
