@@ -48,3 +48,130 @@ Although this project is finished for now, there is definitely room for developm
 - further recognised mood options
 - extensive features that have higher levels of interaction
 - further development of the outputs of each mood
+
+**USE OF AI**
+https://chatgpt.com/
+
+EXAMPLE 1: Developing the 'CalmingArt' Feature
+
+INPUT: 'please code me a rough outline of a pulsating circle in python in processing'
+
+OUTPUT: # Global variable to control the size of the circle
+circle_size = 100
+growth_speed = 1  # Speed at which the circle grows and shrinks
+max_size = 150    # Maximum size of the circle
+min_size = 50     # Minimum size of the circle
+
+def setup():
+    size(400, 400)  # Set the canvas size
+    noStroke()      # Remove outline from the circle
+
+def draw():
+    global circle_size  # Use the global variable
+    
+    background(255)  # Clear the background each frame
+    
+    # Draw the pulsating circle
+    ellipse(width / 2, height / 2, circle_size, circle_size)
+    
+    # Update the circle size to create the pulsating effect
+    circle_size += growth_speed
+    
+    # Reverse the growth direction if the size exceeds the limits
+    if circle_size > max_size or circle_size < min_size:
+        growth_speed *= -1  # Reverse the direction of growth
+
+RESULT: def drawCalmingArt():
+    global size_factor, breathing_in
+
+    # Calculate the size of the breathing circle
+    circle_size = size_factor * 120
+    small_circle_size = circle_size * 0.5  # Smaller circle size (half of bigger circle)
+
+    # Center the main circle on the canvas 
+    fill(173, 216, 230) # Light blue for the main circle
+    ellipse(width / 2, height / 2 + 50, circle_size, circle_size) #Circle coordinates half of canvas 
+
+    # Draw additional smaller circles within the main circle for engagement
+    colors = [(255, 224, 204), (255, 204, 204), (255, 178, 204)]  # Soft pastel shades
+    offsets = [0, 30, 60]  # Offsets for smaller circles
+
+    for i in range(3):  # Draw 3 smaller circles
+        fill(*colors[i])  # Set color for each smaller circle
+        ellipse(width / 2, height / 2 + 50, small_circle_size + offsets[i], small_circle_size + offsets[i]) #Smaller circles
+
+    # Inner circle for breathing effect
+    fill(255, 182, 193, 200)  # Light pink for the inner circle with transparency
+    ellipse(width / 2, height / 2 + 40, small_circle_size, small_circle_size)  # Smaller circle inside the biggest one
+
+    if breathing_in:
+        size_factor += speed * 0.01  # Increase circle size SLOWLY 
+        if size_factor >= max_size / 30:  # Check if max size is reached
+            breathing_in = False  # Alternate to shrinking circle
+    else:
+        size_factor -= speed * 0.01  # Decrease circle size SLOWLY
+        if size_factor <= min_size / 20:  # Check if min size is reached
+            breathing_in = True  # Switch to growing circle 
+
+  EXAMPLE 2: Incorporating a Timer Feature
+
+  INPUT: 'Please also code a timer feature to incorporate'
+
+  OUTPUT;
+   # Timer logic
+    if timer_running:
+        # Calculate remaining time based on the time elapsed
+        elapsed_time = (millis() - timer_start) / 1000  # Convert to seconds
+        remaining_time = timer_duration - elapsed_time  # Calculate remaining time
+        
+        if remaining_time > 0:
+            # Display the remaining time
+            fill(255, 0, 0)  # Red color for the timer
+            text("Time left: {:.1f}s".format(remaining_time), width - 20, 30)
+        else:
+            # Stop the timer when it reaches 0
+            timer_running = False
+            remaining_time = 0  # Ensure remaining time does not go negative
+            fill(0, 255, 0)  # Green color to show timer has ended
+            text("Time's Up!", width / 2, height / 2)  # Display message
+
+  RESULT:
+  # Timer display and features
+    if timer_running:
+        remaining_time = timer_duration - (frameCount - timer_start) / 60  # Calculate remaining time
+        if remaining_time > 0:
+            fill(255, 0, 0)  # Red colour for the timer
+            text("Time left: {:.1f}s".format(remaining_time), width - 100, 30)
+        else:
+            timer_running = False  # Stop the timer when it reaches 0
+            mood = ""  # Reset mood after timer ends
+            score = 0  # Reset score
+
+  EXAMPLE 3: Debugging Boolean Result
+
+  INPUT: 'Please help me debug this processing' : # Adjust background color based on mood
+        if mood.lower() = "happy":
+            background(255, 255, 204)  # Light yellow for happiness
+
+  OUTPUT: Corrected Code:
+  python
+  Copy code
+  # Adjust background color based on mood
+  if mood.lower() == "happy":
+      background(255, 255, 204)  # Light yellow for happiness
+
+  RESULT:
+  # Display score only if mood is "happy"
+    if mood.lower() == "happy": #'==' Is a true statement 
+        fill(0)
+        text("Score: " + str(score), width / 2, height / 2 - 40)  # Display score above mood prompt
+        
+        # Adjust background color based on mood
+        if mood.lower() == "happy":
+            background(255, 255, 204)  # Light yellow for happiness
+        elif mood.lower() == "sad":
+            background(204, 204, 255)  # Light blue for sadness
+        elif mood.lower() == "angry":
+            background(173, 216, 230)  # Light blue for calming
+        else:
+            background(225, 246, 255)  # Default sky blue background
